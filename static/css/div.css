@@ -1,0 +1,83 @@
+.fruits{
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+}
+.cars{
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 20px;
+    border: 2px dotted black;
+    text-align: center;
+    color: rgb(0, 0, 0); 
+}
+.Fruits{
+     background-color: rgb(205, 255, 230);
+    margin: 20px;
+    padding: 20px;
+    border: 2px mixed black;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 30px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: azure;
+    padding: 20px;
+    width: 220px;
+    border-radius: 12px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card h2{
+    color: blue;
+}
+.card p{
+    color: black;
+    line-height: 1.6;
+}
+.card :hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.navbar{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.logo{
+    color: aqua;
+    font-size: 25px;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.nav-links a{  color: rgb(226, 43, 89);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+     .nav-links a:hover{
+        color: blue;
+    }

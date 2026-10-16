@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action=""method="post">
+        <label for="fname">FirstName:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br><br>
+
+        <label for="lname">LastName:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male" required><br><br>
+
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female" required><br><br>
+
+        <label for="course">Course:</label>
+        <select name="course" name="course" required>
+            <option value="">Select a course</option>
+            <option value="web development">Web Development</option>
+            <option value="data science">Data Science</option>
+            <option value="cyber security">Cyber Security</option>
+        </select><br><br>
+        
+       <label for="upload">Upload File:</label>
+        <input type="file" id="upload" name="upload" required><br><br>
+
+        <input type="submit" value="Register">
+</body>
+</html>
